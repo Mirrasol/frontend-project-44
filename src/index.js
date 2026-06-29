@@ -14,7 +14,7 @@ function play(game, message) {
     const [question, correctAnswer] = game()
     console.log(`Question: ${question}`)
 
-    const userAnswer = parseInt(readlineSync.question('Your answer: '))
+    const userAnswer = readlineSync.question('Your answer: ')
 
     if (correctAnswer === userAnswer) {
       console.log('Correct!')
