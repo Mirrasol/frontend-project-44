@@ -7,3 +7,8 @@
 
 [![asciicast](https://asciinema.org/a/jHJMCenSivQbTqzD.svg)](https://asciinema.org/a/jHJMCenSivQbTqzD)
 
+2. Brain-Calc:
+
+[![asciicast](https://asciinema.org/a/kr42dvvrlddTXPiF.svg)](https://asciinema.org/a/kr42dvvrlddTXPiF)
+
+[![asciicast](https://asciinema.org/a/PWn6nMeKpnjVitDI.svg)](https://asciinema.org/a/PWn6nMeKpnjVitDI)
