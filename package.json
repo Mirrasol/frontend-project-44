@@ -11,8 +11,8 @@
     "url": "git+https://github.com/Mirrasol/frontend-project-44.git"
   },
   "license": "ISC",
-  "author": "",
-  "type": "commonjs",
+  "author": "Elena Dobruk",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
