@@ -12,16 +12,16 @@ function play(game, message) {
 
   for (let i = 0; i < NUMBER_OF_ROUNDS; i += 1) {
     const [question, correctAnswer] = game()
-    const correctAnswerString = String(correctAnswer)
+    const normalizedAnswer = String(correctAnswer)
 
     console.log(`Question: ${question}`)
     const userAnswer = readlineSync.question('Your answer: ')
 
-    if (correctAnswerString === userAnswer) {
+    if (normalizedAnswer === userAnswer) {
       console.log('Correct!')
     }
     else {
-      console.log(`"${userAnswer}" is wrong answer ;(. Correct answer was "${correctAnswer}".`)
+      console.log(`"${userAnswer}" is wrong answer ;(. Correct answer was "${normalizedAnswer}".`)
       console.log(`Let's try again, ${userName}!`)
       gameResult = 'lose'
       break
