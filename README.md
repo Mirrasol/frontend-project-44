@@ -13,7 +13,7 @@ Welcome to the Brain Games: a small collection of math games to boost your brain
 
 ## 1. Installation:
 
-`git clone git@github.com:Mirrasol/python-project-44.git` - download the package from GitHub
+`git clone git@github.com:Mirrasol/frontend-project-44.git` - download the package from GitHub
 
 `make install` - install using npm from your console
 
@@ -49,7 +49,7 @@ To start a new game use one of the corresponding commands:
 
 [![asciicast](https://asciinema.org/a/2xRJbi6r2wqAA0JY.svg)](https://asciinema.org/a/2xRJbi6r2wqAA0JY)
 
-5. Prain-Prime:
+5. Brain-Prime:
 
 [![asciicast](https://asciinema.org/a/0enPggpX9ovN9vHt.svg)](https://asciinema.org/a/0enPggpX9ovN9vHt)
 
