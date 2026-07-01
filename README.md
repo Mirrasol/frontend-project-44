@@ -1,5 +1,8 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Mirrasol/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Mirrasol/frontend-project-44/actions)
+[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=Mirrasol_frontend-project-44)](https://sonarcloud.io/summary/new_code?id=Mirrasol_frontend-project-44)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=Mirrasol_frontend-project-44&metric=coverage)](https://sonarcloud.io/summary/new_code?id=Mirrasol_frontend-project-44)
+[![SonarQube Cloud](https://sonarcloud.io/images/project_badges/sonarcloud-light.svg)](https://sonarcloud.io/summary/new_code?id=Mirrasol_frontend-project-44)
 
 
 Welcome to the Brain Games: a small collection of math games to boost your brain activity! Current package contains the following games: 
