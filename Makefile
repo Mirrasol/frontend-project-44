@@ -10,17 +10,17 @@ lint:
 brain-games:
 	node bin/brain-games.js
 
-brain-even:
+even:
 	node bin/brain-even.js
 
-brain-calc:
+calc:
 	node bin/brain-calc.js
 
-brain-gcd:
+gcd:
 	node bin/brain-gcd.js
 
-brain-prog:
+progression:
 	node bin/brain-progression.js
 
-brain-prime:
+prime:
 	node bin/brain-prime.js
