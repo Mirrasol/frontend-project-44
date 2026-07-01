@@ -1,31 +1,22 @@
+import getRandomInt from '../src/utils.js'
+
 const MIN = 1
 const MAX = 99
+const operators = ['+', '-', '*']
 const MESSAGE = 'What is the result of the expression?'
 
-function getRandomInt(min, max) {
-  const minCeiled = Math.ceil(min)
-  const maxFloored = Math.floor(max)
-  return Math.floor(Math.random() * (maxFloored - minCeiled) + minCeiled)
+function getRandomOperator(operators) {
+  const operatorsAmount = operators.length
+  const randomIndex = Math.floor(Math.random() * operatorsAmount)
+
+  return operators[randomIndex]
 }
 
-function getRandomSign() {
-  const result = Math.floor(Math.random() * 3)
-
-  switch (result) {
-    case 0:
-      return '+'
-    case 1:
-      return '-'
-    default:
-      return '*'
-  }
-}
-
-function makeCalc() {
+function getGameResults() {
   const num1 = getRandomInt(MIN, MAX)
   const num2 = getRandomInt(MIN, MAX)
 
-  const operator = getRandomSign()
+  const operator = getRandomOperator(operators)
   const question = `${num1} ${operator} ${num2}`
   let correctAnswer
 
@@ -44,4 +35,4 @@ function makeCalc() {
   return [question, correctAnswer]
 }
 
-export { makeCalc, MESSAGE }
+export { getGameResults, MESSAGE }
