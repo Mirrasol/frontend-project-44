@@ -18,7 +18,7 @@ function makeProgression(start, end, step) {
 
 function hideElement(progression, indexToHide) {
   const hiddenElement = progression[indexToHide]
-  progression[indexToHide] = '. .'
+  progression[indexToHide] = '..'
   return [progression, hiddenElement]
 }
 
