@@ -12,11 +12,12 @@ function play(game, message) {
 
   for (let i = 0; i < NUMBER_OF_ROUNDS; i += 1) {
     const [question, correctAnswer] = game()
-    console.log(`Question: ${question}`)
+    const correctAnswerString = String(correctAnswer)
 
+    console.log(`Question: ${question}`)
     const userAnswer = readlineSync.question('Your answer: ')
 
-    if (correctAnswer === userAnswer) {
+    if (correctAnswerString === userAnswer) {
       console.log('Correct!')
     }
     else {

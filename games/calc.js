@@ -31,13 +31,13 @@ function makeCalc() {
 
   switch (operator) {
     case '+':
-      correctAnswer = `${num1 + num2}`
+      correctAnswer = num1 + num2
       break
     case '-':
-      correctAnswer = `${num1 - num2}`
+      correctAnswer = num1 - num2
       break
     default:
-      correctAnswer = `${num1 * num2}`
+      correctAnswer = num1 * num2
       break
   }
 
