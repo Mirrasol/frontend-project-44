@@ -18,3 +18,9 @@
 [![asciicast](https://asciinema.org/a/AJBoBrxKPaAKnjgx.svg)](https://asciinema.org/a/AJBoBrxKPaAKnjgx)
 
 [![asciicast](https://asciinema.org/a/C6G7nTWRUXdFmTC1.svg)](https://asciinema.org/a/C6G7nTWRUXdFmTC1)
+
+4. Brain-Progression:
+
+[![asciicast](https://asciinema.org/a/5ZyfdERZ3T1RNnNR.svg)](https://asciinema.org/a/5ZyfdERZ3T1RNnNR)
+
+[![asciicast](https://asciinema.org/a/2xRJbi6r2wqAA0JY.svg)](https://asciinema.org/a/2xRJbi6r2wqAA0JY)
