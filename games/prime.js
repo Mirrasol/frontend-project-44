@@ -1,14 +1,10 @@
+import getRandomInt from '../src/utils.js'
+
 const MIN = 1
 const MAX = 100
 const MESSAGE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
-function getRandomInt(min, max) {
-  const minCeiled = Math.ceil(min)
-  const maxFloored = Math.floor(max)
-  return Math.floor(Math.random() * (maxFloored - minCeiled) + minCeiled)
-}
-
-function checkPrime(num) {
+function isPrime(num) {
   if (num < 2) {
     return false
   }
@@ -18,15 +14,14 @@ function checkPrime(num) {
       return false
     }
   }
-
   return true
 }
 
-function isPrime() {
+function getGameResults() {
   const number = getRandomInt(MIN, MAX)
   const question = `${number}`
-  const correctAnswer = checkPrime(number) ? 'yes' : 'no'
+  const correctAnswer = isPrime(number) ? 'yes' : 'no'
   return [question, correctAnswer]
 }
 
-export { isPrime, MESSAGE }
+export { getGameResults, MESSAGE }
