@@ -1,6 +1,30 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Mirrasol/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Mirrasol/frontend-project-44/actions)
 
+
+Welcome to the Brain Games: a small collection of math games to boost your brain activity! Current package contains the following games: 
+
+  - Brain-Even (guess if the given number is odd or even)
+  - Brain-Calc (evaluate a simple equasion)
+  - Brain-Gcd (find the greatest common divider for the two given numbers)
+  - Brain-Progression (guess a missing number in an arithmetic progression)
+  - Brain-Prime (guess if the given number is prime)
+
+
+## 1. Installation:
+
+`git clone git@github.com:Mirrasol/python-project-44.git` - download the package from GitHub
+
+`make install` - install using npm from your console
+
+
+## 2. Starting a game:
+To start a new game use one of the corresponding commands: 
+
+`brain-even`, `brain-calc`, `brain-gcd`, `brain-progression`, `brain-prime`.
+
+## Demo examples:
+
 1. Brain-Even:
 
 [![asciicast](https://asciinema.org/a/zRckyjesGFs0DeBP.svg)](https://asciinema.org/a/zRckyjesGFs0DeBP)
